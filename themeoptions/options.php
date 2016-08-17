@@ -2026,7 +2026,7 @@ Redux::setSection( $opt_name, array(
             'icon' => 'icon-bag2',
             'customizer' => false,
             'icon_class' => 'icon-large',
-            'title' => __('Product Settings', 'virtue'),
+            'title' => __('Configurações do Produto', 'virtue'),
             'desc' => "<div class='redux-info-field'><h3>".__('Product Page Settings', 'virtue')."</h3></div>",
             'fields' => array(
         array(
@@ -3863,7 +3863,7 @@ Redux::setSection( $opt_name, array(
             'default' => ''
             ),  
     ),
-) );
+) );/*
 Redux::setSection( $opt_name, array(
     'id' => 'advanced_settings',
     'icon' => 'icon-tools',
@@ -3913,7 +3913,7 @@ Redux::setSection( $opt_name, array(
             //'validate' => 'css',
             ),
     ),
-) );
+) ); 
 Redux::setSection( $opt_name, array(
     'id' => 'header_footer_scripts',
     'icon' => 'icon-file',
@@ -4052,7 +4052,8 @@ Redux::setSection( $opt_name, array(
                 "default" => 1,
             ),
     ),
-) );
+) ); */
+
 Redux::setSection( $opt_name, array(
                     'id' => 'import_export',
                     'title'  => __( 'Import / Export', 'virtue' ),
@@ -4068,6 +4069,7 @@ Redux::setSection( $opt_name, array(
                         ),
                     ),
                 ) );
+
 
 
 function kadence_override_redux_icons_css() {

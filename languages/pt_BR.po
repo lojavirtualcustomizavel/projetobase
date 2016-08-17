@@ -3894,13 +3894,13 @@ msgstr "Escolha mostrar ou esconder a barra superior"
 
 #: ../themeoptions/options.php:428
 msgid "Enable topbar mobile menu layout."
-msgstr "Habilitar topbar mobile menu layout"
+msgstr "Habilitar topbar mobile menu layout."
 
 #: ../themeoptions/options.php:429
 msgid ""
 "This will convert your menu to a mobile friendly layout and move the search "
 "box into the menu."
-msgstr "Isso irá converter o menu para um layout mobile friendly e moverá a caixa de pesquisa para dentro do menu."
+msgstr "Isso irá converter o menu para um layout mobile friendly e moverá a caixa de pesquisa para dentro do" "menu."
 
 #: ../themeoptions/options.php:436
 msgid "Use Topbar Icon Menu?"
@@ -4690,7 +4690,8 @@ msgid ""
 "This adds an dynamic filter to Category pages. NOTE this filter is only "
 "designed to filter what is visible on the page. It does not act as a menu "
 "and query products from multiple pages."
-msgstr "Adiciona um filtro dinâmico para as páginas de Categoria. NOTA: esse filtro é apenas projetado para filtrar o que é visivel na página. Não funciona como menu e pesquisa por produtos de multiplas paginas."
+msgstr""
+ "Adiciona um filtro dinâmico para as páginas de Categoria. NOTA: esse filtro é apenas projetado para"  "filtrar o que é visivel na página. Não funciona como menu e pesquisa por produtos de multiplas paginas."
 
 #: ../themeoptions/options.php:1557
 msgid "Use Infinite Scroll on Shop pages"
