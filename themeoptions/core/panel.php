@@ -138,7 +138,7 @@
                          *
                          * @param string  translated "settings imported" text
                          */
-                        echo '<div class="admin-notice notice-blue saved_notice"><strong>' . apply_filters( "redux-imported-text-{$this->parent->args['opt_name']}", __( 'Settings Imported!', 'redux-framework' ) ) . '</strong></div>';
+                        echo '<div class="admin-notice notice-blue saved_notice"><strong>' . apply_filters( "redux-imported-text-{$this->parent->args['opt_name']}", __( 'Configurações Importadas!', 'redux-framework' ) ) . '</strong></div>';
                         //exit();
                     } else if ( $this->parent->transients['last_save_mode'] == "defaults" ) {
                         /**
@@ -153,7 +153,7 @@
                          *
                          * @param string  translated "settings imported" text
                          */
-                        echo '<div class="saved_notice admin-notice notice-yellow"><strong>' . apply_filters( "redux-defaults-text-{$this->parent->args['opt_name']}", __( 'All Defaults Restored!', 'redux-framework' ) ) . '</strong></div>';
+                        echo '<div class="saved_notice admin-notice notice-yellow"><strong>' . apply_filters( "redux-defaults-text-{$this->parent->args['opt_name']}", __( 'Configurado para os valores padrões!', 'redux-framework' ) ) . '</strong></div>';
                     } else if ( $this->parent->transients['last_save_mode'] == "defaults_section" ) {
                         /**
                          * action 'redux/options/{opt_name}/section/reset'
@@ -167,7 +167,7 @@
                          *
                          * @param string  translated "settings imported" text
                          */
-                        echo '<div class="saved_notice admin-notice notice-yellow"><strong>' . apply_filters( "redux-defaults-section-text-{$this->parent->args['opt_name']}", __( 'Section Defaults Restored!', 'redux-framework' ) ) . '</strong></div>';
+                        echo '<div class="saved_notice admin-notice notice-yellow"><strong>' . apply_filters( "redux-defaults-section-text-{$this->parent->args['opt_name']}", __( 'Seção configurada com os valores padrões!', 'redux-framework' ) ) . '</strong></div>';
                     } else if ( $this->parent->transients['last_save_mode'] == "normal" ) {
                         /**
                          * action 'redux/options/{opt_name}/saved'
@@ -181,7 +181,7 @@
                          *
                          * @param string translated "settings saved" text
                          */
-                        echo '<div class="saved_notice admin-notice notice-green">' . apply_filters( "redux-saved-text-{$this->parent->args['opt_name']}", '<strong>'.__( 'Settings Saved!', 'redux-framework' ) ).'</strong>' . '</div>';
+                        echo '<div class="saved_notice admin-notice notice-green">' . apply_filters( "redux-saved-text-{$this->parent->args['opt_name']}", '<strong>'.__( 'Alterações Salvas!', 'redux-framework' ) ).'</strong>' . '</div>';
                     }
 
                     unset( $this->parent->transients['last_save_mode'] );
@@ -201,7 +201,7 @@
                  *
                  * @param string translated "settings have changed" text
                  */
-                echo '<div class="redux-save-warn notice-yellow"><strong>' . apply_filters( "redux-changed-text-{$this->parent->args['opt_name']}", __( 'Settings have changed, you should save them!', 'redux-framework' ) ) . '</strong></div>';
+                echo '<div class="redux-save-warn notice-yellow"><strong>' . apply_filters( "redux-changed-text-{$this->parent->args['opt_name']}", __( 'As configurações mudaram, você deve salva-las!', 'redux-framework' ) ) . '</strong></div>';
 
                 /**
                  * action 'redux/options/{opt_name}/errors'
@@ -209,7 +209,7 @@
                  * @param array $this ->errors error information
                  */
                 do_action( "redux/options/{$this->parent->args['opt_name']}/errors", $this->parent->errors );
-                echo '<div class="redux-field-errors notice-red"><strong><span></span> ' . __( 'error(s) were found!', 'redux-framework' ) . '</strong></div>';
+                echo '<div class="redux-field-errors notice-red"><strong><span></span> ' . __( 'erro(s) foram encontrados!', 'redux-framework' ) . '</strong></div>';
 
                 /**
                  * action 'redux/options/{opt_name}/warnings'
@@ -217,7 +217,7 @@
                  * @param array $this ->warnings warning information
                  */
                 do_action( "redux/options/{$this->parent->args['opt_name']}/warnings", $this->parent->warnings );
-                echo '<div class="redux-field-warnings notice-yellow"><strong><span></span> ' . __( 'warning(s) were found!', 'redux-framework' ) . '</strong></div>';
+                echo '<div class="redux-field-warnings notice-yellow"><strong><span></span> ' . __( 'aviso(s) foram encontrados!', 'redux-framework' ) . '</strong></div>';
 
             }
 

@@ -143,18 +143,18 @@ if ( ! class_exists( 'Redux' ) ) {
 
     // SOCIAL ICONS -> Setup custom links in the footer for quick links in your panel footer icons.
     $args['share_icons'][] = array(
-        'url' => 'https://www.facebook.com/KadenceThemes',
-        'title' => 'Follow Kadence Themes on Facebook', 
+        'url' => 'https://www.facebook.com/',
+        'title' => 'Siga a Loja Virtual Customizavel no Facebook', 
         'icon' => 'icon-facebook2',
     );
-    $args['share_icons'][] = array(
+   /* $args['share_icons'][] = array(
         'url' => 'https://www.twitter.com/KadenceThemes',
         'title' => 'Follow Kadence Themes on Twitter', 
         'icon' => 'icon-twitter',
-    );
+    );*/
     $args['share_icons'][] = array(
-        'url' => 'https://www.instagram.com/KadenceThemes',
-        'title' => 'Follow Kadence Themes on Instagram', 
+        'url' => 'https://www.instagram.com/',
+        'title' => 'Siga a Loja Virtual Customizavel no Instagram', 
         'icon' => 'icon-instagram',
     );
 
@@ -167,8 +167,8 @@ Redux::setSection( $opt_name, array(
     'id' => 'main_settings',
     'header' => '',
     'desc' => "<div class='redux-info-field'><h3>".__('Welcome to Virtue Theme Options', 'virtue')."</h3>
-        <p>".__('This theme was developed by', 'virtue')." <a href=\"https://kadencethemes.com/\" target=\"_blank\">Kadence Themes</a></p>
-        <p>".__('For theme documentation visit', 'virtue').": <a href=\"http://docs.kadencethemes.com/virtue-premium/\" target=\"_blank\">docs.kadencethemes.com/virtue-premium/</a>
+        <p>".__('This theme was developed by', 'virtue')." <a href=\"https://lojavirtualcustomizavel.com/\" target=\"_blank\">Loja Virtual Customizavel</a></p>
+        <p>".__('For theme documentation visit', 'virtue').": <a href=\"#\" target=\"_blank\">Loja Virtual Customizavel</a>
         <br />
         ".__('For support please visit', 'virtue').": <a href=\"https://kadencethemes.com/support/\" target=\"_blank\">kadencethemes.com/support/</a></p></div>",
     'icon_class' => 'icon-large',
@@ -460,7 +460,7 @@ Redux::setSection( $opt_name, array(
             "step"      => "1",
             "max"       => "80",
             ),
-         array(
+         /*array(
             'id'=>'virtue_banner_upload',
             'type' => 'media', 
             'url'=> true,
@@ -486,7 +486,7 @@ Redux::setSection( $opt_name, array(
             'type' => 'text',
             'customizer' => false,
             'title' => __('Add shortcode here for output just after the header.', 'virtue'),
-            ),
+            ),*/
         ),
 
 ) );

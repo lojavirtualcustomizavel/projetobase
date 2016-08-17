@@ -3699,8 +3699,8 @@ msgid ""
 "Thank you for using the Virtue Theme by <a href=\"http://kadencethemes.com/"
 "\" target=\"_blank\">Kadence Themes</a>."
 msgstr ""
-"Obrigado por estar usando o Virtue Theme por <a href=\"http://kadencethemes."
-"com/\" target=\"_blank\">Kadence Themes</a>."
+"Obrigado por estar usando a Loja Virtual Customizavel por <a href=\"http://google."
+"com/\" target=\"_blank\">Roldão Wilker</a>."
 
 #: ../themeoptions/options.php:127
 msgid "Main Settings"
@@ -3708,7 +3708,7 @@ msgstr "Opções Principais"
 
 #: ../themeoptions/options.php:130
 msgid "Welcome to Virtue Theme Options"
-msgstr "Seja bem-vindo as Opções do Tema Virtue"
+msgstr "Seja bem-vindo!"
 
 #: ../themeoptions/options.php:131
 msgid "This theme was developed by"
@@ -3764,7 +3764,7 @@ msgstr ""
 
 #: ../themeoptions/options.php:199
 msgid "Enable Sticky Header?"
-msgstr "Habilitar Cabeçalho \"grudento\"?"
+msgstr "Habilitar Cabeçalho \"fixo\"?"
 
 #: ../themeoptions/options.php:200
 msgid "Choose to enable fixed header. Automatically off for mobile"
@@ -3784,7 +3784,7 @@ msgstr ""
 
 #: ../themeoptions/options.php:227
 msgid "Enable Mobile Sticky Header?"
-msgstr "Habilitar Cabeçalho \"grudento\" no mobile?"
+msgstr "Habilitar Cabeçalho \"fixo\" no mobile?"
 
 #: ../themeoptions/options.php:228
 msgid "Choose to enable fixed header for mobile"
@@ -3820,7 +3820,7 @@ msgstr "Deve ser o dobro do tamanho em pixels do seu logo normal."
 
 #: ../themeoptions/options.php:272
 msgid "Sitename Logo Font"
-msgstr "Fonte do Logo do Site"
+msgstr "Fonte da Logo do Site"
 
 #: ../themeoptions/options.php:286
 msgid "Choose size and style your sitename, if you don't use an image logo."
@@ -3894,13 +3894,13 @@ msgstr "Escolha mostrar ou esconder a barra superior"
 
 #: ../themeoptions/options.php:428
 msgid "Enable topbar mobile menu layout."
-msgstr ""
+msgstr "Habilitar topbar mobile menu layout"
 
 #: ../themeoptions/options.php:429
 msgid ""
 "This will convert your menu to a mobile friendly layout and move the search "
 "box into the menu."
-msgstr ""
+msgstr "Isso irá converter o menu para um layout mobile friendly e moverá a caixa de pesquisa para dentro do menu."
 
 #: ../themeoptions/options.php:436
 msgid "Use Topbar Icon Menu?"
@@ -3980,43 +3980,43 @@ msgstr ""
 
 #: ../themeoptions/options.php:515
 msgid "Call to Action Text"
-msgstr ""
+msgstr "Texto de Call to Action"
 
 #: ../themeoptions/options.php:522
 msgid "Call to Action Text Color"
-msgstr ""
+msgstr "Cor do texto de Call to Action"
 
 #: ../themeoptions/options.php:533
 msgid "Call to Action Button Text"
-msgstr ""
+msgstr "Texto do botão de Call to Action"
 
 #: ../themeoptions/options.php:534
 msgid "e.g. = Read More"
-msgstr ""
+msgstr "ex: = Leia Mais"
 
 #: ../themeoptions/options.php:541
 msgid "Call to Action Button Link"
-msgstr ""
+msgstr "Link do botão Call to Action"
 
 #: ../themeoptions/options.php:548
 msgid "Button Text Color"
-msgstr ""
+msgstr "Cor do texto do botão"
 
 #: ../themeoptions/options.php:569
 msgid "Button Hover Text Color"
-msgstr ""
+msgstr "Cor do texto ao colocar o mouse em cima do botão"
 
 #: ../themeoptions/options.php:580
 msgid "Button Hover Background Color"
-msgstr ""
+msgstr "Cor de fundo do botão ao colocar o mouse em cima do botão"
 
 #: ../themeoptions/options.php:590
 msgid "Call to action top and bottom padding."
-msgstr ""
+msgstr "Espaçamento de cima e de baixo do Call to Action"
 
 #: ../themeoptions/options.php:602
 msgid "Call to action background"
-msgstr ""
+msgstr "Cor de fundo do Call to Action"
 
 #: ../themeoptions/options.php:609
 msgid "Sitewide Footer Shortcode"
@@ -4187,7 +4187,7 @@ msgstr ""
 
 #: ../themeoptions/options.php:764
 msgid "Create a more lightweight Home slider for your mobile visitors."
-msgstr ""
+msgstr "Crie um slide mais leve para a Home para os visitantes de aparelhos moveis"
 
 #: ../themeoptions/options.php:769
 msgid "Would you like to use this feature?"
@@ -4199,15 +4199,15 @@ msgid ""
 "your mobile visitors."
 msgstr ""
 "Escolha se você deseja mostrar um slideshow diferente na página inicial para "
-"os visitantes mobile."
+"os visitantes com aparelho moveis."
 
 #: ../themeoptions/options.php:776
 msgid "Show for tablet also?"
-msgstr ""
+msgstr "Mostrar para tablet também?"
 
 #: ../themeoptions/options.php:777
 msgid "Choose if you would like to show the mobile slider for tablets also."
-msgstr ""
+msgstr "Escolha se você quer mostrar o slide para celular também em tabletes"
 
 #: ../themeoptions/options.php:784
 msgid "Choose a Slider for Mobile"
@@ -4303,15 +4303,15 @@ msgstr "Altura do Menu de Imagens"
 
 #: ../themeoptions/options.php:988
 msgid "Height set by"
-msgstr ""
+msgstr "Altura configurada por"
 
 #: ../themeoptions/options.php:989
 msgid "Choose how the image menu height will be set."
-msgstr ""
+msgstr "Escolha como a altura da imagem de menu será configurada"
 
 #: ../themeoptions/options.php:990
 msgid "Height setting above"
-msgstr ""
+msgstr "Configuração de Altura acima"
 
 #: ../themeoptions/options.php:998
 msgid "Home Featured Product Settings"
@@ -4475,7 +4475,7 @@ msgstr "Mostrar tipos do portfólio embaixo do Título"
 #: ../themeoptions/options.php:1263 ../themeoptions/options.php:1426
 #: ../themeoptions/options.php:2054
 msgid "Display Portfolio Excerpt under Title"
-msgstr ""
+msgstr "Mostrar Portifolio, execto abaixo do Titulo"
 
 #: ../themeoptions/options.php:1269
 msgid "Home Custom Carousel Settings"
@@ -4503,7 +4503,7 @@ msgstr "Escolha como os itens customizados rolam."
 
 #: ../themeoptions/options.php:1313
 msgid "Enable custom image ratio for carousel"
-msgstr ""
+msgstr "Habilitar proporção da imagem para o carrossel"
 
 #: ../themeoptions/options.php:1319
 msgid "Home Icon Menu"
@@ -4599,7 +4599,7 @@ msgstr "Exibição dos Últimos Posts"
 msgid ""
 "If Latest Post page is front page. Choose to show full post or post excerpt."
 msgstr ""
-"Caso os \"Últimos Posts\" são a página inicial. Escolha os posts completos "
+"Caso os \"Últimos Posts\" sejam a página inicial. Escolha os posts completos "
 "ou somente o resumo."
 
 #: ../themeoptions/options.php:1445 ../themeoptions/options.php:2259
@@ -4668,7 +4668,7 @@ msgstr ""
 
 #: ../themeoptions/options.php:1537
 msgid "Products fit into rows regardless of size"
-msgstr ""
+msgstr "Produtos cabem na linha independente do tamanho"
 
 #: ../themeoptions/options.php:1543
 msgid "Show Category Filter on Shop Page"
@@ -4679,7 +4679,7 @@ msgid ""
 "This adds an dynamic filter to the shop page. NOTE this filter is only "
 "designed to filter what is visible on the page. It does not act as a menu "
 "and query products from multiple pages."
-msgstr ""
+msgstr "Adiciona um filtro dinâmico para a página da loja. NOTA: esse filtro é apenas projetado para filtrar o que é visivel na página. Não funciona como menu e pesquisa por produtos de multiplas paginas."
 
 #: ../themeoptions/options.php:1550
 msgid "Show Category Filter on Category Pages"
@@ -4690,7 +4690,7 @@ msgid ""
 "This adds an dynamic filter to Category pages. NOTE this filter is only "
 "designed to filter what is visible on the page. It does not act as a menu "
 "and query products from multiple pages."
-msgstr ""
+msgstr "Adiciona um filtro dinâmico para as páginas de Categoria. NOTA: esse filtro é apenas projetado para filtrar o que é visivel na página. Não funciona como menu e pesquisa por produtos de multiplas paginas."
 
 #: ../themeoptions/options.php:1557
 msgid "Use Infinite Scroll on Shop pages"
@@ -4702,12 +4702,12 @@ msgstr "Não é recomendado que você use com filtro."
 
 #: ../themeoptions/options.php:1564
 msgid "Show toggle buttons for list/grid on shop page"
-msgstr ""
+msgstr "Mostra botão de ativar/desativar para lista/gride na página da loja"
 
 #: ../themeoptions/options.php:1565
 msgid ""
 "Adds two icons for toggling between a grid and list layout on shop page."
-msgstr ""
+msgstr "Adiciona dois icones para alternar entre um layout de gride ou lista na página da loja"
 
 #: ../themeoptions/options.php:1571
 msgid "Stop Product Excerpt from loading in the shop grid pages."
@@ -4715,7 +4715,7 @@ msgstr ""
 
 #: ../themeoptions/options.php:1572
 msgid "Good to turn on if there are conflicts on your shop grid pages."
-msgstr ""
+msgstr "É com ativar se houver conflitos nas páginas de grides da sua loja."
 
 #: ../themeoptions/options.php:1578
 msgid "Show Ratings in Shop and Category Pages"
@@ -4766,13 +4766,14 @@ msgstr ""
 
 #: ../themeoptions/options.php:1606
 msgid "Quantity Box plus and minus"
-msgstr ""
+msgstr "Caixa de quantidade mais e menos"
 
 #: ../themeoptions/options.php:1607
 msgid ""
 "Turn this off if you would like to use browser added plus and minus for "
 "number boxes"
-msgstr ""
+msgstr "Desligue isto se você gostaria de usar o navegador com adição e subtração para"
+"caixas de número"
 
 #: ../themeoptions/options.php:1613
 msgid "Shop Category Image Size"
@@ -4818,7 +4819,7 @@ msgstr "Paisagem 4:2 Larga"
 
 #: ../themeoptions/options.php:1629
 msgid "Turn Off"
-msgstr ""
+msgstr "Desligar"
 
 #: ../themeoptions/options.php:1636
 msgid "Shop Product Title Settings"
@@ -5106,11 +5107,11 @@ msgstr ""
 
 #: ../themeoptions/options.php:2047
 msgid "Show Types under Title"
-msgstr ""
+msgstr "Mostrar tipos abaixo do titulo"
 
 #: ../themeoptions/options.php:2048
 msgid "Choose to show or hide portfolio type under title."
-msgstr ""
+msgstr "Escolha mostrar ou esconder tipo de portifolio abaixo do titulo."
 
 #: ../themeoptions/options.php:2060
 msgid "Portfolio Post Bottom Carousel"
@@ -5122,7 +5123,7 @@ msgstr "Escolha quantas colunas irão aparecer no carrossel do portfólio."
 
 #: ../themeoptions/options.php:2083
 msgid "Choose how many items to show on recent portfolio carousel."
-msgstr ""
+msgstr "Escolha quantos items mostrar no carrossel de portifio recente"
 
 #: ../themeoptions/options.php:2105 ../themeoptions/options.php:2106
 msgid "Blog Options"
@@ -5194,11 +5195,11 @@ msgstr ""
 
 #: ../themeoptions/options.php:2163
 msgid "Blog post navigation setting"
-msgstr ""
+msgstr "Configuração de navegação dos post do Blog"
 
 #: ../themeoptions/options.php:2164
 msgid "Navigate through Categories"
-msgstr ""
+msgstr "Navegar pelas Categorias"
 
 #: ../themeoptions/options.php:2171
 msgid "Use Infinite Scroll on Blog pages"
@@ -5214,7 +5215,7 @@ msgstr ""
 
 #: ../themeoptions/options.php:2178
 msgid "Use Infinite Scroll on Blog archive pages"
-msgstr ""
+msgstr "Usar rolagem infinita no arquivo de paginas do Blog"
 
 #: ../themeoptions/options.php:2185
 msgid "Blog Post Defaults"
@@ -5230,7 +5231,7 @@ msgstr "Resumo Padrão de Posts"
 
 #: ../themeoptions/options.php:2207
 msgid "Default post summary feature Image"
-msgstr ""
+msgstr "Recurso de imagem para o resumo de post padrão"
 
 #: ../themeoptions/options.php:2208
 msgid "Replace theme default feature image for posts without a featured image"
@@ -5251,11 +5252,11 @@ msgstr "Carrossel Padrão no Rodapé dos Posts"
 #: ../themeoptions/options.php:2237
 #, fuzzy
 msgid "Display Similar Posts in random order?"
-msgstr "SIm - Mostrar posts similares"
+msgstr "Sim - Mostrar posts similares"
 
 #: ../themeoptions/options.php:2244
 msgid "Choose how many items to show on recent/similar post carousel."
-msgstr ""
+msgstr "Escolha quantos itens mostrar no recente/similar carrossel de post "
 
 #: ../themeoptions/options.php:2253
 msgid "Blog Category/Archive Defaults"
@@ -5389,7 +5390,7 @@ msgstr "repetir-y"
 #: ../themeoptions/options.php:2564 ../themeoptions/options.php:2604
 #: ../themeoptions/options.php:2648 ../themeoptions/options.php:2693
 msgid "X image placement options"
-msgstr "Opções de posicionamento da imagem em X"
+msgstr "Opções de posicionamento da imagem na horizontal"
 
 #: ../themeoptions/options.php:2385 ../themeoptions/options.php:2429
 #: ../themeoptions/options.php:2475 ../themeoptions/options.php:2520
@@ -5421,7 +5422,7 @@ msgstr "direita"
 #: ../themeoptions/options.php:2572 ../themeoptions/options.php:2611
 #: ../themeoptions/options.php:2656 ../themeoptions/options.php:2701
 msgid "Y image placement options"
-msgstr "Opções de posicionamento da imagem em Y"
+msgstr "Opções de posicionamento da imagem na vertical"
 
 #: ../themeoptions/options.php:2393 ../themeoptions/options.php:2437
 #: ../themeoptions/options.php:2483 ../themeoptions/options.php:2528
@@ -5569,35 +5570,35 @@ msgstr "Opções do Menu Primário"
 
 #: ../themeoptions/options.php:2905
 msgid "Enable sub-indicator in menu?"
-msgstr ""
+msgstr "Habilitar sub-indicador no menu?"
 
 #: ../themeoptions/options.php:2906
 msgid "Choose to enable arrows showing there is a submenu"
-msgstr ""
+msgstr "Escolha habilitar setas mostrando que existe um submenu"
 
 #: ../themeoptions/options.php:2913
 msgid "Enable Search in Primary Menu?"
-msgstr ""
+msgstr "Permitir Pesquisas no menu Primário?"
 
 #: ../themeoptions/options.php:2914
 msgid "Choose to enable a search button in the header menu"
-msgstr ""
+msgstr "Esolha habilitar o botão de pesquisa no menu do header"
 
 #: ../themeoptions/options.php:2921
 msgid "Make menu search results only products?"
-msgstr ""
+msgstr "Mostrar apenas produtos no resultado de pesquisa?"
 
 #: ../themeoptions/options.php:2922
 msgid "This will change the menu search to a woocommerce search."
-msgstr ""
+msgstr "Isso mudará o menu de pesquisa para a pesquisa do woocommerce"
 
 #: ../themeoptions/options.php:2929
 msgid "Enable Mini Cart in Primary Menu?"
-msgstr ""
+msgstr "Habilitar carrinho no menu primário?"
 
 #: ../themeoptions/options.php:2930
 msgid "Choose to enable a Cart button in the header menu"
-msgstr ""
+msgstr "Esolha habilitar o botão de carrinho no menu do header"
 
 #: ../themeoptions/options.php:2936
 msgid "Primary Menu Font"
@@ -5689,7 +5690,7 @@ msgstr "Mostrar somente o botão para o Menu Mobile"
 
 #: ../themeoptions/options.php:3087
 msgid "Submenu items collapse until opened"
-msgstr ""
+msgstr "Colapsar itens do menu até abrirem"
 
 #: ../themeoptions/options.php:3093
 msgid "Mobile Menu Font"
@@ -5757,11 +5758,11 @@ msgstr "Padrão: Promoção"
 
 #: ../themeoptions/options.php:3175
 msgid "Not Available Text (radio button tooltip)"
-msgstr ""
+msgstr "Texto não disponível(dica radio button)"
 
 #: ../themeoptions/options.php:3176
 msgid "Standard: Not Available"
-msgstr ""
+msgstr "Padrão: Não Disponível"
 
 #: ../themeoptions/options.php:3181
 msgid "Post READ MORE text"
@@ -5987,7 +5988,7 @@ msgstr "Ligue para permitir comentários nos posts do Portfólio"
 
 #: ../themeoptions/options.php:3366
 msgid "Arrow navigation for single testimonial post?"
-msgstr ""
+msgstr "Seta de navegação para apenas um testemunho?"
 
 #: ../themeoptions/options.php:3374
 #, fuzzy
@@ -6046,7 +6047,7 @@ msgstr ""
 
 #: ../themeoptions/options.php:3417
 msgid "Search Results"
-msgstr ""
+msgstr "Resultados da pesquisa"
 
 #: ../themeoptions/options.php:3422
 msgid "Search Results - choose Sidebar"
@@ -6054,19 +6055,19 @@ msgstr "Resultados da Busca - escolha a Barra lateral"
 
 #: ../themeoptions/options.php:3430
 msgid "Search Results Layout"
-msgstr ""
+msgstr "Layout dos resultados de pesquisa"
 
 #: ../themeoptions/options.php:3431
 msgid "Grid"
-msgstr ""
+msgstr "Gride"
 
 #: ../themeoptions/options.php:3431
 msgid "Single Column"
-msgstr ""
+msgstr "Uma coluna"
 
 #: ../themeoptions/options.php:3431
 msgid "Simple Grid"
-msgstr ""
+msgstr "Gride Simples"
 
 #: ../themeoptions/options.php:3438
 msgid "Create Sidebars"
@@ -6098,15 +6099,15 @@ msgstr "Rolagem Suave"
 
 #: ../themeoptions/options.php:3467
 msgid "Leave Off"
-msgstr ""
+msgstr "Deixar Off"
 
 #: ../themeoptions/options.php:3467
 msgid "Use - with scroll bar replacement"
-msgstr ""
+msgstr "Use - com subistituição da barra de rolagem"
 
 #: ../themeoptions/options.php:3467
 msgid "Use - no replacement of scroll bar (chrome browser only)"
-msgstr ""
+msgstr "Use - sem substituição da barra de rolagem (apenas o navegador Chrome)"
 
 #: ../themeoptions/options.php:3474
 msgid "Enable Auto Hide"
@@ -6130,7 +6131,7 @@ msgstr "Galerias Wordpress"
 
 #: ../themeoptions/options.php:3493
 msgid "Enable Virtue Galleries to override Wordpress"
-msgstr "Habilitar as Galerias do Virtue sobrescreverem a do WordPress"
+msgstr "Habilitar as Galerias do tema da Loja Virtual Customizavel sobrescreve as do WordPress"
 
 #: ../themeoptions/options.php:3494
 msgid ""
@@ -6142,7 +6143,7 @@ msgstr ""
 
 #: ../themeoptions/options.php:3500
 msgid "Use Masonry Feature on Virtue Galleries"
-msgstr "Usar Encaixe automático nas galerias Virtue"
+msgstr "Usar Encaixe automático nas galerias do tema da Loja Virtual Customizavel"
 
 #: ../themeoptions/options.php:3501
 msgid "This allows for dynamic gallery grids with images of different height"
@@ -6150,11 +6151,11 @@ msgstr "Isso permite galerias dinâmicas com imagens de diferente altura"
 
 #: ../themeoptions/options.php:3507
 msgid "Show captions on Virtue Galleries"
-msgstr ""
+msgstr "Mostrar legenda nas galerias do tema da Loja Virtual Customizavel"
 
 #: ../themeoptions/options.php:3508
 msgid "This sets the defualt caption setting to true."
-msgstr ""
+msgstr "Isso configura o padrão de configuração de legenda para verdade"
 
 #: ../themeoptions/options.php:3514
 msgid "Site Scroll Animation in"
@@ -6182,7 +6183,7 @@ msgstr ""
 
 #: ../themeoptions/options.php:3533
 msgid "Turn Off Theme Lightbox?"
-msgstr ""
+msgstr "Desligar o Tema Lightbox?"
 
 #: ../themeoptions/options.php:3543
 msgid "Advanced Settings"
@@ -6194,7 +6195,7 @@ msgstr "Opções Gerais de SEO"
 
 #: ../themeoptions/options.php:3549
 msgid "Google Analytics Tracking ID"
-msgstr "Tracking ID do Google Analytics"
+msgstr "Rastrear ID do Google Analytics"
 
 #: ../themeoptions/options.php:3550
 msgid "Paste your Google Analytics Tracking ID Here. (example: UA-########-#)"
@@ -6204,14 +6205,14 @@ msgstr ""
 
 #: ../themeoptions/options.php:3555
 msgid "Turn on Virtue SEO?"
-msgstr "Ligar o SEO Virtue?"
+msgstr "Ligar o SEO do tema da Loja Virtual Customizavel?"
 
 #: ../themeoptions/options.php:3556
 msgid ""
 "Choose if you would like to use Virtue Theme SEO options, for full seo "
 "support use a plugin"
 msgstr ""
-"Escolha se você deseja usar as opções de SEO do Tema Virtue, para um suporte "
+"Escolha se você deseja usar as opções de SEO do Tema da Loja Virtual Customizavel, para um suporte "
 "completo use um plugin"
 
 #: ../themeoptions/options.php:3562
@@ -6237,31 +6238,31 @@ msgstr ""
 
 #: ../themeoptions/options.php:3593
 msgid "Header and Footer Scripts"
-msgstr ""
+msgstr "Scripts do cabeçalho e roda-pé"
 
 #: ../themeoptions/options.php:3594
 msgid "Simple output for header and footer scripts"
-msgstr ""
+msgstr "Exibição simples para os scripts de cabeçalho e roda-pé"
 
 #: ../themeoptions/options.php:3599 ../themeoptions/options.php:3610
 msgid "Header Output"
-msgstr ""
+msgstr "Exibição do Header"
 
 #: ../themeoptions/options.php:3604
 msgid "Outputs between &lt;head&gt; and &lt;/head&gt;"
-msgstr ""
+msgstr "Exibição entre &lt;head&gt; e &lt;/head&gt;"
 
 #: ../themeoptions/options.php:3605
 msgid "Quickly add a script to your header."
-msgstr ""
+msgstr "Adicione rapidamente scripts para o seu cabeçalho"
 
 #: ../themeoptions/options.php:3615
 msgid "Outputs right before &lt;/body&gt;"
-msgstr ""
+msgstr "Saída logo antes do &lt;/body&gt"
 
 #: ../themeoptions/options.php:3616
 msgid "Quickly add a script to your footer."
-msgstr ""
+msgstr "Adicione rapidamente scripts para o seu footer(roda-pé)"
 
 #: ../themeoptions/options.php:3623 ../themeoptions/options.php:3626
 msgid "Theme Extensions"
@@ -6272,7 +6273,7 @@ msgid ""
 "Disable Built in Theme Extensions. Please Note, this does not change how the "
 "front end loads. If these items where already not used then they were not "
 "loaded it the front end. These options only clean up the admin area."
-msgstr ""
+msgstr "Não altere"
 
 #: ../themeoptions/options.php:3632
 msgid "Woocommerce Shop"
@@ -6280,54 +6281,54 @@ msgstr "Loja Woocommerce"
 
 #: ../themeoptions/options.php:3633
 msgid "Turn Off/On all Woocommerce references and code"
-msgstr ""
+msgstr "Desligar/Ligar todas as referencias e codigos Woocommerce(não altere)."
 
 #: ../themeoptions/options.php:3640
 msgid "Turn Off/On all Portfolio references and code"
-msgstr ""
+msgstr "Desligar/Ligar todas as referencias e código de Portifolio(não altere)."
 
 #: ../themeoptions/options.php:3646
 msgid "Staff Posts"
-msgstr ""
+msgstr "Posts do Staff"
 
 #: ../themeoptions/options.php:3647
-msgid "Turn Off/On all Staff references and code"
+msgid "Desligar/Ligar todas as referencias e código de Staff (não altere)."
 msgstr ""
 
 #: ../themeoptions/options.php:3653
 msgid "Testimonial Posts"
-msgstr ""
+msgstr "Posts de testemunhos"
 
 #: ../themeoptions/options.php:3654
 msgid "Turn Off/On all Testimonial references and code"
-msgstr ""
+msgstr "Desligar/Ligar todas as referencias e códigos de Testemunhos(não altere)."
 
 #: ../themeoptions/options.php:3660
 msgid "Header and Footer Script output"
-msgstr ""
+msgstr "Saída de Scripts de Cabeçalho e Roda-pé"
 
 #: ../themeoptions/options.php:3661
 msgid "Turn Off/On Header and Footer Script output boxes."
-msgstr ""
+msgstr "Desligar/Ligar caixas de saida de Scripts de Cabeçalho e Roda-pé(não altere)."
 
 #: ../themeoptions/options.php:3668
 #, fuzzy
-msgid "Importação / Exportação"
+msgid "Portifolio Options Post"
 msgstr "Opções do Post do Portfólio"
 
 #: ../themeoptions/options.php:3669
 msgid "Import and Export your Theme Options from text or URL."
-msgstr ""
+msgstr "Importar e Exportar as opções do seu tema para Texto ou URL"
 
 #: ../tribe-events/single-event.php:26
 #, php-format
 msgid "&laquo; All %s"
-msgstr ""
+msgstr ""&laquo; TODOS %s"
 
 #: ../tribe-events/single-event.php:53 ../tribe-events/single-event.php:97
 #, php-format
 msgid "%s Navigation"
-msgstr ""
+msgstr "%s Navegação"
 
 #: ../woocommerce/archive-product.php:102
 msgid "Filter Products"
@@ -6336,7 +6337,7 @@ msgstr "Filtrar Produtos"
 #: ../woocommerce/archive-product.php:116
 #: ../woocommerce/archive-product.php:139
 msgid "Show"
-msgstr ""
+msgstr "Mostrar"
 
 #: ../woocommerce/loop/rating.php:20
 msgid "not rated"
@@ -6360,7 +6361,7 @@ msgstr "Promoção!"
 
 #: ../woocommerce/single-product/add-to-cart/variable.php:26
 msgid "This product is currently out of stock and unavailable."
-msgstr ""
+msgstr "Esse produto atualmente está fora de estoque e indispónível
 
 #: ../woocommerce/single-product/add-to-cart/variable.php:38
 #: ../woocommerce/single-product/add-to-cart/variable.php:49
@@ -6845,7 +6846,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Additional Updates"
-#~ msgstr "Mostrar legendas"
+#~ msgstr "Atualizações Adicionais
 
 #, fuzzy
 #~ msgid "cool thing description."
@@ -6853,11 +6854,11 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Product Price"
-#~ msgstr "Vídeo do Produto"
+#~ msgstr "Preço do produto
 
 #, fuzzy
 #~ msgid "Download Files"
-#~ msgstr "Download"
+#~ msgstr "Arquivos de download"
 
 #, fuzzy
 #~ msgid "Display a Product Grid"
@@ -6877,7 +6878,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "View %s"
-#~ msgstr "Novo %s"
+#~ msgstr "Ver %s"
 
 #~ msgid "It is recomended that you leave this off."
 #~ msgstr "É recomendável você manter isso desligado."
