@@ -3716,7 +3716,7 @@ msgstr "Esse tema foi desenvolvido por"
 
 #: ../themeoptions/options.php:132
 msgid "For theme documentation visit"
-msgstr "Para documentação do tema visite"
+msgstr "Para acessar a documentação e os tutoriais visite"
 
 #: ../themeoptions/options.php:134
 msgid "For support please visit"

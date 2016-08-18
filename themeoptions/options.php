@@ -110,7 +110,7 @@ if ( ! class_exists( 'Redux' ) ) {
         'ajax_save'            => true,
         'default_show'         => false,
         'default_mark'         => '',
-        'footer_credit' => __('Thank you for using the Virtue Theme by <a href="https://kadencethemes.com/" target="_blank">Kadence Themes</a>.', 'virtue'),
+        'footer_credit' => __('Obirgado por nos escolher como seu sistema de loja virtual. Equipe: <a href="https://lojavirtualcustomizavel.com/" target="_blank">Loja Virtual Customizada </a>.', 'virtue'),
         'hints'                => array(
             'icon'          => 'kt-icon-question',
             'icon_position' => 'right',
@@ -166,11 +166,19 @@ Redux::setSection( $opt_name, array(
     'title' => __('Main Settings', 'virtue'),
     'id' => 'main_settings',
     'header' => '',
-    'desc' => "<div class='redux-info-field'><h3>".__('Welcome to Virtue Theme Options', 'virtue')."</h3>
+    'desc' => "<div class='redux-info-field'><h3>".__('Bem Vindo!'/*'Welcome to Virtue Theme Options'*/,'' /*'virtue'*/)."</h3>
         <p>".__('This theme was developed by', 'virtue')." <a href=\"https://lojavirtualcustomizavel.com/\" target=\"_blank\">Loja Virtual Customizavel</a></p>
-        <p>".__('For theme documentation visit', 'virtue').": <a href=\"#\" target=\"_blank\">Loja Virtual Customizavel</a>
-        <br />
-        ".__('For support please visit', 'virtue').": <a href=\"https://kadencethemes.com/support/\" target=\"_blank\">kadencethemes.com/support/</a></p></div>",
+        <p>".__('For theme documentation visit', 'virtue').": <a href=\"#\" target=\"_blank\">Loja Virtual Customizavel</a></p>
+        <br /></div>",
+               
+        /*
+        
+            .__('For support please visit', 'virtue').": <a href=\"https://kadencethemes.com/support/\"                 target=\"_blank\">kadencethemes.com/support/</a></p></div> 
+            (se for tirar o comentário retirar o fechamento da div anterior)
+        
+        */
+            
+    
     'icon_class' => 'icon-large',
     'icon' => 'icon-equalizer2',
     'fields' => array(
@@ -190,8 +198,8 @@ Redux::setSection( $opt_name, array(
         array(
             'id'=>'sidebar_side',
             'type' => 'select',
-            'title' => __('Sidebar Side of page.', 'virtue'), 
-            'options' => array('right' => __('Right Side', 'virtue'),'left' => __('Left Side', 'virtue')),
+            'title' => __('Lado da Sidebar da página.', 'virtue'), 
+            'options' => array('right' => __('Direita', 'virtue'),'left' => __('Esquerda', 'virtue')),
             'width' => 'width:60%',
             'default' => 'right',
             ),
@@ -206,7 +214,7 @@ Redux::setSection( $opt_name, array(
             'type' => 'select',
             'customizer' => false,
             'title' => __('Choose a Header Style', 'virtue'), 
-            'options' => array('standard' => 'Standard','center' => 'Center Logo menus on sides','shrink' => 'Basic, with shrink for sticky'),
+            'options' => array('standard' => 'Padrão','center' => 'Logo centralizada com menus na lateral','shrink' => 'Basic, with shrink for sticky'),
             'default' => 'standard',
             'width' => 'width:60%',
             ),
@@ -297,7 +305,7 @@ Redux::setSection( $opt_name, array(
             'type' => 'image_select',
             //'compiler' => false,
             'customizer' => true,
-            'title' => __('Logo Layout (Standard Header only)', 'virtue'), 
+            'title' => __('Logo Layout (Apenas para cabeçalho padrão)', 'virtue'), 
             'subtitle' => __('Choose how you want your logo to be laid out', 'virtue'),
             'options' => array(
                     'logoleft' => array('alt' => 'Logo Left Layout', 'img' => OPTIONS_PATH.'img/logo_layout_01.png'),
@@ -494,14 +502,14 @@ Redux::setSection( $opt_name, array(
     'id' => 'mobile_header_settings',
     'icon' => 'icon-mobile2',
     'icon_class' => 'icon-large',
-    'title' => __('Mobile Header', 'virtue'),
-    'desc' => "<div class='redux-info-field'><h3>".__('Simple Mobile Header Settings', 'virtue')."</h3><p>".__('Note This still used the mobile navigation menu in apperance > menus', 'virtue')."</p></div>",
+    'title' => __('Cabeçalho para mobile', 'virtue'),
+    'desc' => "<div class='redux-info-field'><h3>".__('Configurações simples cabeçalho para mobile', 'virtue')."</h3><p>".__('Nota: Isto continua usando a navegação mobile em aparência > menus.', 'virtue')."</p></div>",
     'fields' => array(
         array(
             'id'=>'mobile_header',
             'type' => 'switch',
-            'title' => __('Use simple mobile header?', 'virtue'),
-            'subtitle'=> __('This will override the normal responsive header with a simpler one for mobile.', 'virtue'),
+            'title' => __('Usar cabeçalho mobile simples?', 'virtue'),
+            'subtitle'=> __('Isto irá sobrescrever o cabeçalho responsivo normal com um mobile simples.', 'virtue'),
             "default"       => 0,
             ),
         array(
