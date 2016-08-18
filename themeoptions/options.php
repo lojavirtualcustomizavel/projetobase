@@ -503,7 +503,7 @@ Redux::setSection( $opt_name, array(
     'icon' => 'icon-mobile2',
     'icon_class' => 'icon-large',
     'title' => __('Cabeçalho para mobile', 'virtue'),
-    'desc' => "<div class='redux-info-field'><h3>".__('Configurações simples cabeçalho para mobile', 'virtue')."</h3><p>".__('Nota: Isto continua usando a navegação mobile em aparência > menus.', 'virtue')."</p></div>",
+    'desc' => "<div class='redux-info-field'><h3>".__('Configurações simples de cabeçalho para mobile', 'virtue')."</h3><p>".__('Nota: Isto continua usando a navegação mobile em aparência > menus.', 'virtue')."</p></div>",
     'fields' => array(
         array(
             'id'=>'mobile_header',
@@ -595,8 +595,8 @@ Redux::setSection( $opt_name, array(
             'id'=>'topbar_mobile',
             'type' => 'switch',
             'customizer' => false,
-            'title' => __('Enable topbar mobile menu layout.', 'virtue'),
-            'subtitle'=> __('This will convert your menu to a mobile friendly layout and move the search box into the menu.', 'virtue'),
+            'title' => __('Habilitar topbar mobile menu layout.', 'virtue'),
+            'subtitle'=> __('Isso irá converter o menu para um layout mobile friendly e moverá a caixa de pesquisa para dentro do" "menu.', 'virtue'),
             "default" => 0,
             ), 
         array(
