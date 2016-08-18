@@ -784,7 +784,7 @@ Redux::setSection( $opt_name, array(
             'id'=>'sitewide_footer_shortcode_input',
             'type' => 'text',
             'customizer' => false,
-            'title' => __('Add shortcode here for output just above footer.', 'virtue'),
+            'title' => __('Adicione o shortcode aqui para exibir logo acima do footer.', 'virtue'),
             ),
         ),
 ) );
@@ -943,7 +943,7 @@ Redux::setSection( $opt_name, array(
     'customizer' => false,
     'icon_class' => 'icon-large',
     'title' => __('Home Mobile Slider', 'virtue'),
-    'desc' => "<div class='redux-info-field'><h3>".__('Create a more lightweight Home slider for your mobile visitors.', 'virtue')."</h3></div>",
+    'desc' => "<div class='redux-info-field'><h3>".__('Crie um slide mais leve na Home para os visitantes com aparelhos mobile', 'virtue')."</h3></div>",
     'fields' => array(
       array(
             'id'=>'mobile_switch',
@@ -1177,9 +1177,9 @@ Redux::setSection( $opt_name, array(
             'id'=>'img_menu_height_setting',
             'type' => 'select',
             'customizer' => false,
-            'title' => __('Height set by', 'virtue'), 
-            'subtitle' => __("Choose how the image menu height will be set.", 'virtue'),
-            'options' => array('normal' => __('Height setting above', 'virtue'), 'imgsize' => __('Image Size', 'virtue')),
+            'title' => __('Altura configurada por:', 'virtue'), 
+            'subtitle' => __("Escolha como a altura do menu de imagem será configurado.", 'virtue'),
+            'options' => array('normal' => __('Configuração de altura no campo acima', 'virtue'), 'imgsize' => __('Tamanho da imagem', 'virtue')),
             'default' => 'normal',
             'width' => 'width:60%',
             ),
@@ -1588,9 +1588,9 @@ Redux::setSection( $opt_name, array(
            array(
             'id'=>'home_portfolio_full_layout',
             'type' => 'select',
-            'title' => __('Portfolio Layout', 'virtue'), 
-            'subtitle' => __("Choose the portfolio layout", 'virtue'),
-            'options' => array('normal' => __('Normal', 'virtue'),'mosaic' => __('Mosaic (limited options)', 'virtue')),
+            'title' => __('Layout do portifolio', 'virtue'), 
+            'subtitle' => __("Escolha o layout do portifolio", 'virtue'),
+            'options' => array('normal' => __('Normal', 'virtue'),'mosaic' => __('Mosaic (opções limitadas)', 'virtue')),
             'default' => 'normal',
             'width' => 'width:60%',
             ),
